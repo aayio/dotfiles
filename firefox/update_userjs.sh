@@ -1,3 +1,11 @@
 #!/bin/bash
 
-cp user.js "$(cat profile_path)"
+path="$(cat profile_path)"
+
+if [ -d "$path" ]; then
+    echo "does exist 🙂: $path"
+    echo "copying user.js"
+    cp user.js "$path"
+else
+    echo "does not exist ⚠️: $path"
+fi
