@@ -17,10 +17,6 @@ user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
 user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
 user_pref("browser.compactmode.show", true);
 
-// vertical tabs - shit atm, use tree style tabs
-user_pref("sidebar.revamp", false);
-user_pref("sidebar.verticalTabs", false);
-
 // === INACTIVE ===
 
 // user_pref("mousewheel.with_meta.action", 1);
