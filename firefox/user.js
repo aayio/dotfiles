@@ -1,3 +1,6 @@
+// disable ai chatbot
+user_pref("browser.ml.chat.enabled", false);
+
 // don't warn when quitting with Cmd-Q
 user_pref("browser.warnOnQuitShortcut", false);
 
