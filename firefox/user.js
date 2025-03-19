@@ -1,3 +1,8 @@
+// vertical tabs - good now
+user_pref("sidebar.revamp", true);
+user_pref("sidebar.visibility", "always-show");
+user_pref("sidebar.verticalTabs", true);
+
 // disable ai chatbot
 user_pref("browser.ml.chat.enabled", false);
 
