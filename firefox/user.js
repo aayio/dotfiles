@@ -1,3 +1,7 @@
+// May 2025 a search drop down randomly appeared in the search bar
+// Turn it off
+user_pref("browser.urlbar.scotchBonnet.enableOverride", false);
+
 // vertical tabs - good now
 user_pref("sidebar.revamp", true);
 user_pref("sidebar.visibility", "always-show");
