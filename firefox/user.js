@@ -10,8 +10,8 @@ user_pref("sidebar.verticalTabs", true);
 // disable ai chatbot
 user_pref("browser.ml.chat.enabled", false);
 
-// don't warn when quitting with Cmd-Q
-user_pref("browser.warnOnQuitShortcut", false);
+// DO warn when quitting with Cmd-Q
+user_pref("browser.warnOnQuitShortcut", true);
 
 // don't warn when going to about:config
 user_pref("browser.aboutConfig.showWarning", false);
